@@ -36,7 +36,7 @@ nav li a {
 .button-primary{
     color: #FFF;
     font-size: 20px;
-    border-radius: 0px;
+    border-radius: 5px;
     background-color: #FD6E0A;
     border: 1px solid #FD6E0A;
     padding: 18px 35px;
@@ -60,6 +60,9 @@ nav li a {
     background-image: url("/images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
+}
+.header-btn{
+    margin-right: 20px;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -205,14 +208,9 @@ footer{
     font-weight: 400;
     line-height: 28px;
 }
-.social-links{
-    margin: 10px -23px;
-}
 .social-links img{
-    margin-left: 20px;
-}
-.form{
-    
+    margin-right: 25px;
+    width: 30px;
 }
 .form input, textarea{
     display: block;
