@@ -110,7 +110,6 @@ main{
 .about-info-container{
     display: flex;
     justify-content: space-around;
-    color: ;
 }
 .info-title{
     text-align: center;
@@ -128,6 +127,7 @@ main{
     display: flex;
     margin-top: 50px;
     justify-content: space-around;
+    gap: 30px;
 }
 .skill{
     width: 200px;
@@ -153,8 +153,8 @@ main{
 /* summary section style */
 .resume{
     display: flex;
-    padding: 30px;
     justify-content: space-around;
+    gap: 130px;
 }
 .Summary{
     padding: 50px 0px;
@@ -186,4 +186,38 @@ hr{
 }
 .resume-btn{
     text-align: center;
+}
+/* footer section style */
+footer{
+    background: #FFF8F3;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 130px 0px;
+    align-items: center;
+}
+.footer-column{
+    max-width: 500px;
+}
+.footer-column p{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.social-links{
+    margin: 10px -23px;
+}
+.social-links img{
+    margin-left: 20px;
+}
+.form{
+    
+}
+.form input, textarea{
+    display: block;
+    width: 100%;
+    padding: 19px 10px;
+    margin: 20px 0px;
+    border: 0px;
 }
