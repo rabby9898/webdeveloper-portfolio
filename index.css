@@ -150,3 +150,40 @@ main{
     line-height: 28px;
     margin-top: 40px;
 }
+/* summary section style */
+.resume{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+.Summary{
+    padding: 50px 0px;
+}
+.resume-column-title{
+    margin: 40px 0px;
+}
+.resume-title{
+    color: #181818;
+    
+}
+.resume-item{
+    max-width: 500px;
+}
+.resume-item-title{
+    color: #474747;
+}
+.resume-item-desc{
+    color: #757575;
+}
+.resume-item p{
+    color: #D1D1D1;
+    margin: 40px 0px;
+}
+hr{
+    background-color: #e1e1e1;
+    border: none;
+    height: 1px;
+}
+.resume-btn{
+    text-align: center;
+}
