@@ -32,6 +32,7 @@ nav li a {
     font-weight: 400;
     line-height: normal;
 }
+/* common styles */
 .button-primary{
     color: #FFF;
     font-size: 20px;
@@ -40,18 +41,112 @@ nav li a {
     border: 1px solid #FD6E0A;
     padding: 18px 35px;
 }
+.section-title{
+    color: #181818;
+    text-align: center; 
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-desc{
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
 /* header */
 .header{
     background: #FFF8F3;
+    background-image: url("/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner-content{
     align-items: center;
+    max-width: 500px;
+    
+}
+.banner-content h3{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.banner-content h1{
+    color: #000000;
+    font-size: 85px;
+    font-weight: 700;
+    margin: -12px 0px;
+}
+.banner-content p{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 45px 0px;
+    line-height: 30px;
 }
 .banner img{
-    width: 500px;
+    width: 584px;
+    height: 676px;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section */
+.about{
+    margin: 130px 0px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    color: ;
+}
+.info-title{
+    text-align: center;
+    color: #757575;
+}
+.info-desc{
+    font-weight: 700;
+    text-align: center;
+    color: #474747;
+}
+#what-i-do-desc{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.skill{
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 30px;
+}
+.skill img{
+    margin: 15px 0px;
+}
+.skill-title{
+    margin: 15px 0px;
+}
+.skill-desc{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 40px;
 }
