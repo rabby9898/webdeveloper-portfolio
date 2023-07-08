@@ -6,7 +6,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 51px;
+    margin: 0px 200px;
 }
 
 .nav-title{
@@ -39,4 +39,19 @@ nav li a {
     background-color: #FD6E0A;
     border: 1px solid #FD6E0A;
     padding: 18px 35px;
+}
+/* header */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-content{
+    align-items: center;
+}
+.banner img{
+    width: 500px;
 }
